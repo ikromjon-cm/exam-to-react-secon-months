@@ -4,10 +4,12 @@ const Header = ({data}) => {
   return (
     <div>
       <div className="Header">
-        <div className="logo">
-            <img src={data.img} alt="jj" />
-            <p>{data.title}</p>
+        {data.map((item,index)=>
+        <div key={index} className="logo">
+            <img src={item.img} alt="Logo" />
+            <p>{item.title}</p>
         </div>
+        )}
         
       </div>
     </div>

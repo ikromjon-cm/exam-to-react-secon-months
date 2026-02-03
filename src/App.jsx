@@ -1,4 +1,4 @@
-import Logo from '../public/LOGO.png'
+import Logo from './assets/LOGO.png'
 import { CiSearch } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
