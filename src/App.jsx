@@ -26,7 +26,7 @@ const headerData =[
 const App = () => {
   return (
     <div>
-      <Header data={headerData}/>
+      <Header data= {headerData}/>
     </div>
   );
 }
