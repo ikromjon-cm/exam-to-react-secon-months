@@ -21,9 +21,7 @@ const headerData =[
   {
     icons:[<CiHeart />,<FaShuffle />,<SlBasket />,<CiUser />]
   },
-  {
-    
-  }
+  
 ]
 const App = () => {
   return (
