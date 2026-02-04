@@ -24,11 +24,9 @@ const headerData =[
   
 ]
 const App = () => {
-  return (
     <div>
       <Header data= {headerData}/>
     </div>
-  );
 }
 
 export default App;
